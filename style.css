@@ -1,0 +1,66 @@
+h1{
+
+color:orangered;
+
+text-align: center;
+margin-top: 0cm;
+font-family:cursive;
+
+padding: 30px;
+border: 6px solid black;
+border-radius: 20px;
+
+margin-right: 150px;
+margin-left: 100px;
+}
+h3{
+
+    color:orangered;
+    font-family:cursive;
+
+    }
+
+P{
+
+    font-family:cursive;
+
+}
+.C1 {
+    text-align: right;
+    margin-right: 4cm;
+}
+
+.C2{
+
+background-image: url("images/mainpage/backgroundwallpapers2.jpg");
+background-size: 100%;
+}
+.C2_2{
+
+    text-align: left;
+    margin-left: 1cm;
+
+}
+
+.C3{
+    float: right;
+}
+.C4{
+    float: left
+}
+
+.C5{
+
+    background-color:khaki;
+
+}
+nav{
+    font-family:cursive;
+}
+
+.C6{
+
+    border: 4px solid black;
+    border-radius: 8px;
+
+}
