@@ -51,7 +51,7 @@ background-image: url("images/mainpage/backgroundwallpapers2.jpg");
 background-size: 100%;
 
 position: relative;
-animation:animasyon2;
+animation:animasyon1;
 animation-duration: 5s;
 animation-fill-mode: forwards;
 margin-top: 0cm;
@@ -59,7 +59,7 @@ font-family:cursive;
 
 
 }
-@keyframes animasyon2{
+@keyframes animasyon1{
     0% {
         right: -1400px;
         top: -1400px;
@@ -95,7 +95,33 @@ font-family:cursive;
 
     background-color:khaki;
 
+    
+position: relative;
+animation:animasyon2;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+margin-top: 0cm;
+font-family:cursive;
+
+
 }
+
+@keyframes animasyon2{
+    0% {
+        right: -1400px;
+        top: -1400px;
+
+    }
+    
+    100% {
+        right: 0px;
+        top: 0px;
+
+    }
+    
+    
+    }
+
 nav{
     font-family:cursive;
 }

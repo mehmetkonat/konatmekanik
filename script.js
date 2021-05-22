@@ -79,3 +79,142 @@ function Shrink() {
 
    x.style.width = "130px";
  }
+
+
+ function bigImg1(x) {
+
+  x.style.width = "500px";
+
+}
+
+function normalImg1(x) {
+
+  x.style.width = "400px";
+}
+
+function bigImg2(x) {
+  x.style.width = "420px";
+}
+
+function normalImg2(x) {
+
+  x.style.width = "350px";
+}
+
+function bigImg3(x) {
+  x.style.width = "420px";
+}
+
+function normalImg3(x) {
+
+  x.style.width = "350px";
+}
+
+function bigImg4(x) {
+  x.style.width = "420px";
+}
+
+function normalImg4(x) {
+
+  x.style.width = "350px";
+}
+
+function bigImg5(x) {
+  x.style.width = "590px";
+}
+
+function normalImg5(x) {
+
+  x.style.width = "500px";
+}
+
+
+function bigImg6(x) {
+  x.style.width = "510px";
+}
+
+function normalImg6(x) {
+
+  x.style.width = "440px";
+}
+
+
+function bigImg7(x) {
+  x.style.width = "590px";
+}
+
+function normalImg7(x) {
+
+  x.style.width = "500px";
+}
+
+
+function bigImg8(x) {
+  x.style.width = "520px";
+}
+
+function normalImg8(x) {
+
+  x.style.width = "450px";
+}
+
+
+function bigImg9(x) {
+  x.style.width = "520px";
+}
+
+function normalImg9(x) {
+
+  x.style.width = "450px";
+}
+
+
+ddddddddddddddddddddddddddd
+
+
+function bigImg10(x) {
+  x.style.width = "500px";
+}
+
+function normalImg10(x) {
+
+  x.style.width = "430px";
+}
+
+function bigImg11(x) {
+  x.style.width = "500px";
+}
+
+function normalImg11(x) {
+
+  x.style.width = "430px";
+}
+
+function bigImg12(x) {
+  x.style.width = "500px";
+}
+
+function normalImg12(x) {
+
+  x.style.width = "430px";
+}
+
+
+function bigImg13(x) {
+  x.style.width = "900px";
+}
+
+function normalImg13(x) {
+
+  x.style.width = "800px";
+}
+
+
+function bigImg14(x) {
+  x.style.width = "900px";
+}
+
+function normalImg14(x) {
+
+  x.style.width = "800px";
+}
