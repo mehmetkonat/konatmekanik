@@ -1,4 +1,4 @@
-h1{
+ h1{
 
 color:orangered;
 
@@ -8,11 +8,33 @@ font-family:cursive;
 
 padding: 30px;
 border: 6px solid black;
+margin: auto;
 border-radius: 20px;
 
 margin-right: 150px;
 margin-left: 100px;
+
+position: relative;
+animation:animasyon1;
+animation-duration: 2s;
+animation-fill-mode: forwards;
+margin-top: 0cm;
+font-family:cursive;
+
 }
+
+@keyframes animasyon1{
+0% {
+    top: -200px;
+}
+
+100% {
+    top: 0px;
+}
+
+
+}
+
 h3{
 
     color:orangered;
@@ -64,3 +86,4 @@ nav{
     border-radius: 8px;
 
 }
+

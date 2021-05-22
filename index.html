@@ -12,13 +12,27 @@
 
 <body class="C2">
     
-<div>
+<div id="showcase">
 
     <p class="C3"> <img src="images/mainpage/portrait.jpg" alt="portrait" width="130px">  </p>
     <br><h1>  MEHMET KONAT</h1>
-    <p class="C4">&emsp;&emsp; <B>Address: </B>Baglaralti Mah. 211. Sok. No:4 D:3<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;Yıldırım/BURSA</p>
-    <p class="C1"><br><B>Mail:</B> mehmet.konat@metu.edu.tr </p>
-    <p class="C1"><B>Tel. No:</B> +905327970149<br><br><br><br></p>
+    
+    <div class="C4">
+
+        <p id="B1">&emsp;&emsp; <B>Address: </B>  <button type="button" onclick="document.getElementById('B1').innerHTML = '&emsp;&emsp; <B>Address: </B>Baglaralti Mah. 211. Sok. No:4 D:3<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;Yıldırım/BURSA'">Click For Show!</button>    
+        </p>
+
+    </div>
+
+    <div class="C1">
+
+        <p id="B2"><br><B>Mail:</B> <button type="button" onclick="document.getElementById('B2').innerHTML = '<br><B>Mail:</B> mehmet.konat@metu.edu.tr'">Click For Show!</button>    
+        </p>
+      
+        <p id="B3"><B>Tel. No:</B> <button type="button" onclick="document.getElementById('B3').innerHTML = '<B>Tel. No:</B> +905327970149'">Click For Show!</button>    
+        </p>
+
+    </div>
     <hr>
 
 </div>
@@ -103,6 +117,8 @@
     </p>
 </div>
 </div>
+
+<button onclick="window.print()">Print this page</button>
 
 </body>
 </html>
