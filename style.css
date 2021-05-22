@@ -14,26 +14,10 @@ border-radius: 20px;
 margin-right: 150px;
 margin-left: 100px;
 
-position: relative;
-animation:animasyon1;
-animation-duration: 2s;
-animation-fill-mode: forwards;
-margin-top: 0cm;
-font-family:cursive;
 
 }
 
-@keyframes animasyon1{
-0% {
-    top: -200px;
-}
 
-100% {
-    top: 0px;
-}
-
-
-}
 
 h3{
 
@@ -42,11 +26,20 @@ h3{
 
     }
 
+
 P{
 
     font-family:cursive;
 
 }
+
+
+
+
+
+
+
+
 .C1 {
     text-align: right;
     margin-right: 4cm;
@@ -56,7 +49,34 @@ P{
 
 background-image: url("images/mainpage/backgroundwallpapers2.jpg");
 background-size: 100%;
+
+position: relative;
+animation:animasyon2;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+margin-top: 0cm;
+font-family:cursive;
+
+
 }
+@keyframes animasyon2{
+    0% {
+        right: -1400px;
+        top: -1400px;
+
+    }
+    
+    100% {
+        right: 0px;
+        top: 0px;
+
+    }
+    
+    
+    }
+
+
+
 .C2_2{
 
     text-align: left;
@@ -87,3 +107,15 @@ nav{
 
 }
 
+
+
+span {
+    background-image:repeating-linear-gradient(rgb(199, 188, 129),khaki);
+
+    background-repeat: no-repeat;
+    background-size: 0px 0px;
+    background-position: bottom left;
+    transition: background-size .4s ease;
+
+
+}

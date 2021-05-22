@@ -13,12 +13,17 @@
 <body class="C2">
     
 
-    <p class="C3"> <img src="images/mainpage/portrait.jpg" alt="portrait" width="130px">  </p>
-    <br><h1>  MEHMET KONAT</h1>
+    <p class="C3"> <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="1" src="images/mainpage/portrait.jpg" alt="portrait" width="130px">  </p>
+
+    <br>
+    <h1 id="demo" onmouseover="mouseOver()" onmouseout="mouseOut()">  MEHMET KONAT</h1>
+
     
     <div class="C4">
 
-        <p id="B1">&emsp;&emsp; <B>Address: </B>  <button type="button" onclick="document.getElementById('B1').innerHTML = '&emsp;&emsp; <B>Address: </B>Baglaralti Mah. 211. Sok. No:4 D:3<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;Yıldırım/BURSA'">Click For Show!</button>    
+        <p id="B1">
+            &emsp;&emsp; <B>Address:</B>  
+            <button type="button" onclick="document.getElementById('B1').innerHTML = '&emsp;&emsp; <B>Address: </B>  Baglaralti Mah. 211. Sok. No:4 D:3<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;Yıldırım/BURSA '" >Click For Show!</button>    
         </p>
 
     </div>
@@ -39,10 +44,10 @@
 
 
     <nav class="C2_2">
-        <li><a href="#baslik1">EDUCATION</a></li>
-        <li><a href="#baslik2">SKILLS</a></li>
-        <li><a href="#baslik3">PROJECTS</a></li>
-        <li><a href="#baslik4">OTHERS</a></li>
+        <li><a href="#baslik1"><span>EDUCATION</span></a></li>
+        <li><a href="#baslik2"><span>SKILLS</span></a></li>
+        <li><a href="#baslik3"><span>PROJECTS</span></a></li>
+        <li><a href="#baslik4"><span>OTHERS</span></a></li>
     
     </nav>
 
@@ -52,15 +57,14 @@
 <hr>
 
 <div class="C6">
+    <div class="C2_2">
 
-<div class="C2_2">
+            <h3 id="baslik1" onmouseover="mouseGeldi1()" onmouseout="mouseGitti1()"> <ins>EDUCATION:</ins> </h3>
 
+        <p ><B>&emsp;&emsp;2010-2014</B>&emsp;&emsp;<span>Bursa Anadolu Erkek Lisesi</span><br> </p>
+        <p ><B>&emsp;&emsp;2014-2021</B> &emsp;&emsp;<span>Orta Doğu Teknik Üniversitesi Makina Mühendisliği</span><br><br> </p>
 
-        <h3 id="baslik1"> <ins>EDUCATION:</ins> </h3>
-        <p ><B>&emsp;&emsp;2010-2014</B> &emsp;&emsp;Bursa Anadolu Erkek Lisesi<br> </p>
-        <p ><B>&emsp;&emsp;2014-2021</B> &emsp;&emsp;Orta Doğu Teknik Üniversitesi Makina Mühendisliği<br><br> </p>
-
-</div>
+    </div>
 </div>
 
 <hr>
@@ -68,18 +72,25 @@
 
 <div class="C2_2">
 
-    <h3 id="baslik2"> <ins>SKILLS:</ins> </h3>
-    <h3 > &emsp;Computer </h3>
+
+      <h3 id="baslik2" onmouseover="mouseGeldi2()" onmouseout="mouseGitti2()"> <ins>SKILLS:</ins> </h3>
+
+
+    <h3 id="arabaslik1" onmouseover="mouseGeldiab1()" onmouseout="mouseGittiab1()"> &emsp;Computer </h3>
+
+    
     <p ><B>&emsp;&emsp; Good level : </B> 
-        &emsp;&emsp; C++, Matlab/Simulink, Ansys Workbench CAE, Keycreator, XLRF5, Proteus,
-        <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;Microsoft office (Word, Excel, Powerpoint)<br><br> 
+        &emsp;&emsp;<span> C++, Matlab/Simulink, Ansys Workbench CAE, Keycreator, XLRF5, Proteus,</span>
+        <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;<span>Microsoft office (Word, Excel, Powerpoint)<br><br> </span>
     </p>
     <p ><B>&emsp;&emsp; Middle level : </B> 
-        &ensp;&nbsp;&nbsp;&nbsp;Solidworks, Siemens NX, MPLAB, CCS C, Cura<br><br>
+        &ensp;&nbsp;&nbsp;&nbsp;<span>Solidworks, Siemens NX, MPLAB, CCS C, Cura<br><br></span>
     </p>
-    <h3 > &emsp;Foreign Language </h3>
+
+    <h3 id="arabaslik2" onmouseover="mouseGeldiab2()" onmouseout="mouseGittiab2()"> &emsp;Foreign Language </h3>
+
     <p ><B>&emsp;&emsp; English : </B> 
-        &emsp;&emsp;&emsp;  Academic reading and writing<br><br> 
+        &emsp;&emsp;&emsp;  <span>Academic reading and writing<br><br> </span>
     </p>   
 </div>
 
@@ -89,12 +100,15 @@
 <div class="C6">
 <div class="C2_2">
 
-    <h3 id="baslik3"> <ins>PROJECTS:</ins> </h3>
+
+        <h3 id="baslik3" onmouseover="mouseGeldi3()" onmouseout="mouseGitti3()"> <ins>PROJECTS:</ins></h3>
+        
+      
 
     <nav>
-        <li><a href="Htmls/teknofest.html">Teknofest High Altitude Rocket Competition</a></li>
-        <li><a href="Htmls/hydros.html">ITU Hydros Team</a></li>
-        <li><a href="Htmls/individual.html">Individual Occupation</a></li>
+        <li><a href="Htmls/teknofest.html"><span>Teknofest High Altitude Rocket Competition</span></a></li>
+        <li><a href="Htmls/hydros.html"><span>ITU Hydros Team</span></a></li>
+        <li><a href="Htmls/individual.html"><span>Individual Occupation</span></a></li>
     </nav>
 
     <p >(Note: Please click the name of the projects for detail)</p>
@@ -106,18 +120,21 @@
 <div class="C6">
 <div class="C2_2">
 
-    <h3 id="baslik4"> <ins>OTHERS:</ins> </h3>
+
+      <h3 id="baslik4" onmouseover="mouseGeldi4()" onmouseout="mouseGitti4()"> <ins>OTHERS:</ins> </h3>
 
     <p ><B>&emsp;&emsp; Hobbies : </B> 
-        &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; Bike Tour, Hiking<br><br> 
+        &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; <span>Bike Tour, Hiking</span><br><br> 
     </p>
-    <p ><B>&emsp;&emsp; Driving License : </B> 
-        &emsp;&emsp; Class B<br><br> 
+    <p ><B>&emsp;&emsp; Driving License :</B> 
+        &emsp;&emsp; <span>Class B</span><br><br> 
     </p>
 </div>
 </div>
 
 <button onclick="window.print()">Print this page</button>
+
+<script src="script.js"></script>
 
 </body>
 </html>
