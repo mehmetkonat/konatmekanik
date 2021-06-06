@@ -1,142 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+           
+<html>
 <head>
-    
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Owner" content="Mehmet Konat">
-    <title>Mehmet Konat CV</title>
-
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Mehmet Konat</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="yyy.css"></link>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab:wght@400;700&display=swap" rel='styleSheet.css'>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,600&display=swap" rel='styleSheet.css'>
 
 </head>
 
-<body class="C2">
-    
 
-    <p class="C3"> <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="1" src="images/mainpage/portrait.jpg" alt="portrait" width="130px">  </p>
 
-    <br>
-    <h1 id="demo" onmouseover="mouseOver()" onmouseout="mouseOut()">  MEHMET KONAT</h1>
 
-    
-    <div class="C4">
 
-        <p id="B1">
-            &emsp;&emsp; <B>Address:</B>  
-            <button type="button" onclick="document.getElementById('B1').innerHTML = '&emsp;&emsp; <B>Address: </B>  Baglaralti Mah. 211. Sok. No:4 D:3<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;Yıldırım/BURSA '" >Click For Show!</button>    
-        </p>
+  <header>
+
+    <div class="logo">
+  
+      <a href="index.html"> <img class="logo" src="images/LOGO/logo.PNG"> </a>
 
     </div>
 
-    <div class="C1">
+  <div class="header-top">
+  
+    <a class="l-right toggle-menu" href="#">
+      <i></i>
+      <i></i>
+      <i></i>
+    </a>
+  </div>
 
-        <p id="B2"><br><B>Mail:</B> <button type="button" onclick="document.getElementById('B2').innerHTML = '<br><B>Mail:</B> mehmet.konat@metu.edu.tr'">Click For Show!</button>    
-        </p>
+
+ 
+  <nav class="hide">
+    
+    <ul id="menu">
+      <li data-menuanchor="firstSection">
+        <a href="index.html" title="First Section">HOME</a>
+      </li>
+      <li data-menuanchor="secondSection">
+        <a href="Htmls/CV.html" title="Second Section">CV</a>
+      </li>
       
-        <p id="B3"><B>Tel. No:</B> <button type="button" onclick="document.getElementById('B3').innerHTML = '<B>Tel. No:</B> +905327970149'">Click For Show!</button>    
-        </p>
-
-    </div>
-    <hr>
-
-
-
-
-
-    <nav class="C2_2">
-        <li><a href="#baslik1"><span>EDUCATION</span></a></li>
-        <li><a href="#baslik2"><span>SKILLS</span></a></li>
-        <li><a href="#baslik3"><span>PROJECTS</span></a></li>
-        <li><a href="#baslik4"><span>OTHERS</span></a></li>
+      <li data-menuanchor="fourthSection">
+        <a href="Htmls/Projects.html" title="Fourth Section">PROJECTS</a>
+      </li>
     
-    </nav>
+      <li data-menuanchor="sixthSection">
+        <a  href="Htmls/Contact.html" title="sixthSection">CONTACT</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+
+ <main>
+
+  <img class="hi" src="images/hi/1.PNG" alt="This is a portait picture." >
+
+  <div class="about-info">
+
+          </div class="item1"> 
+            <img class="portre" src="images/mainpage/portrait.jpg" alt="This is a portait picture." >
+          </div>
+  <div class="arrange"></div>
+          <div class="item2">  
+                    <div class="title">
+                    <h2 class="mainpage"> Mehmet Konat</h2></div>
+                        <div class="info">
+                        <p>
+                          I am a 4th year Mechanical Engineering student in Middle East Technical University.
+                           <br>
+
+                           I had the opportunity to participate in many projects and competitions throughout 
+                           my education life.  
+                           <br>
+                            In this process, I think that I have improved my design, modeling, manufacturing and teamwork skills.
+                           </p>
+                          
+                  </div>
+            </div>
+      </div>
+ </main>
+ 
+<body> 
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js'></script>
+<script src="function.js"></script>
 
 
 
+</body>
 
-<hr>
-
-<div class="C6">
-    <div class="C2_2">
-
-            <h3 id="baslik1" onmouseover="mouseGeldi1()" onmouseout="mouseGitti1()"> <ins>EDUCATION:</ins> </h3>
-
-        <p ><B>&emsp;&emsp;2010-2014</B>&emsp;&emsp;<span>Bursa Anadolu Erkek Lisesi</span><br> </p>
-        <p ><B>&emsp;&emsp;2014-2021</B> &emsp;&emsp;<span>Orta Doğu Teknik Üniversitesi Makina Mühendisliği</span><br><br> </p>
-
-    </div>
-</div>
-
-<hr>
-<div class="C6">
-
-<div class="C2_2">
-
-
-      <h3 id="baslik2" onmouseover="mouseGeldi2()" onmouseout="mouseGitti2()"> <ins>SKILLS:</ins> </h3>
-
-
-    <h3 id="arabaslik1" onmouseover="mouseGeldiab1()" onmouseout="mouseGittiab1()"> &emsp;Computer </h3>
-
-    
-    <p ><B>&emsp;&emsp; Good level : </B> 
-        &emsp;&emsp;<span> C++, Matlab/Simulink, Ansys Workbench CAE, Keycreator, XLRF5, Proteus,</span>
-        <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;<span>Microsoft office (Word, Excel, Powerpoint)<br><br> </span>
-    </p>
-    <p ><B>&emsp;&emsp; Middle level : </B> 
-        &ensp;&nbsp;&nbsp;&nbsp;<span>Solidworks, Siemens NX, MPLAB, CCS C, Cura<br><br></span>
-    </p>
-
-    <h3 id="arabaslik2" onmouseover="mouseGeldiab2()" onmouseout="mouseGittiab2()"> &emsp;Foreign Language </h3>
-
-    <p ><B>&emsp;&emsp; English : </B> 
-        &emsp;&emsp;&emsp;  <span>Academic reading and writing<br><br> </span>
-    </p>   
-</div>
-
-</div>
-<hr>
-
-<div class="C6">
-<div class="C2_2">
-
-
-        <h3 id="baslik3" onmouseover="mouseGeldi3()" onmouseout="mouseGitti3()"> <ins>PROJECTS:</ins></h3>
-        
-      
-
-    <nav>
-        <li><a href="Htmls/teknofest.html"><span>Teknofest High Altitude Rocket Competition</span></a></li>
-        <li><a href="Htmls/hydros.html"><span>ITU Hydros Team</span></a></li>
-        <li><a href="Htmls/individual.html"><span>Individual Occupation</span></a></li>
-    </nav>
-
-    <p >(Note: Please click the name of the projects for detail)</p>
-
-</div>
-</div>
-<hr>
-
-<div class="C6">
-<div class="C2_2">
-
-
-      <h3 id="baslik4" onmouseover="mouseGeldi4()" onmouseout="mouseGitti4()"> <ins>OTHERS:</ins> </h3>
-
-    <p ><B>&emsp;&emsp; Hobbies : </B> 
-        &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; <span>Bike Tour, Hiking</span><br><br> 
-    </p>
-    <p ><B>&emsp;&emsp; Driving License :</B> 
-        &emsp;&emsp; <span>Class B</span><br><br> 
-    </p>
-</div>
-</div>
-
-<button onclick="window.print()">Print this page</button>
-
-<script src="script.js"></script>
 
 </body>
 </html>
