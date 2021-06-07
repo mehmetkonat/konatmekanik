@@ -1,0 +1,106 @@
+ h1{
+
+color:orangered;
+
+text-align: center;
+margin-top: 0cm;
+font-family: 'Montserrat', 'Segoe UI', Tahoma, Verdana, sans-serif ;
+font-style: normal;
+
+padding: 30px;
+border: 6px solid black;
+margin: auto;
+border-radius: 20px;
+
+margin-right: 150px;
+margin-left: 100px;
+
+
+}
+
+
+
+h3{
+
+    color:orangered;
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Verdana, sans-serif ;
+    font-style: normal;
+
+    
+    }
+
+
+P{
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Verdana, sans-serif ;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+.C1 {
+    text-align: right;
+    margin-right: 4cm;
+}
+
+.C2{
+
+    top:200px;
+background-image: url("images/mainpage/backgroundwallpapers2.jpg");
+background-size: 100%;
+
+
+
+
+}
+
+
+
+.C2_2{
+
+    text-align: left;
+    margin-left: 1cm;
+
+}
+
+.C3{
+    float: right;
+
+
+}
+.C4{
+    float: left
+}
+
+.C5{
+
+    background-color:khaki;
+
+}
+nav{
+    font-family:cursive;
+}
+
+.C6{
+
+    border: 4px solid black;
+    border-radius: 8px;
+
+}
+
+
+
+span {
+    background-image:repeating-linear-gradient(rgb(199, 188, 129),khaki);
+
+    background-repeat: no-repeat;
+    background-size: 0px 0px;
+    background-position: bottom left;
+    transition: background-size .4s ease;
+
+
+}

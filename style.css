@@ -1,0 +1,92 @@
+nav {
+
+    background-color: #141414;
+    height: 13%;
+    width:100% ;
+    position:fixed;
+    z-index: 2;
+    margin-top: 0%;
+
+    }
+  
+  .navigation1 {
+
+    float: right;
+    text-align: center;
+    
+    margin-right: 5%;
+    margin-top: 2%;
+    color: rgb(240, 240, 240);
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Verdana, sans-serif;
+
+    text-decoration:none;
+    font-size: 18px;
+
+  }
+
+
+  .active {
+
+    float: right;
+    text-align: center;
+    
+    margin-right: 5%;
+    margin-top: 2%;
+    color: rgb(28, 240, 9);
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Verdana, sans-serif;
+
+    text-decoration:none;
+    font-size: 18px;
+
+  }
+  
+      .navlogo {
+        position:fixed;
+        height: 7%;
+        margin: 0.6%;
+      
+      }
+
+
+
+      .giris{
+        position: absolute;
+        z-index: 1;
+        font-family: 'Montserrat', 'Segoe UI', 'arial','microsoft sans serif', Tahoma, Verdana, sans-serif;
+        font-size: 60pt;
+        color: #f7f7f7;
+        top: 170px;
+        left:150px;
+
+      }
+      .banner{
+        object-fit: cover;
+        position: relative;
+        width: 100%;
+      }
+
+      
+
+      .about-info{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0%;
+        }
+
+        .item1{
+          width: 35vw;
+          margin-top: 3%;
+          min-height: 20px;
+          margin-left: 5vw;
+          }
+
+          img.portre {
+            margin-left: 10vw;
+            margin-top: 2%;
+            min-width: 200px;
+            width: 20%;
+            height: 20%;
+            border-radius: 100%;
+            
+          } 
