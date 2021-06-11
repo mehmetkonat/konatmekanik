@@ -9,8 +9,6 @@ span {
 
 }
 
-
-
 /* Style the images inside the grid */
 .column img {
     opacity: 1; 
@@ -20,4 +18,3 @@ span {
   .column img:hover {
     opacity: 0.5;
   }
-  
