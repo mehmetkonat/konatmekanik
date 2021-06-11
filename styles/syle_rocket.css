@@ -1,0 +1,71 @@
+
+
+h2.mainpage{
+
+    margin-top: 7%;
+
+    color:steelblue;
+    text-align:center;
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Verdana, sans-serif ;
+    font-style: normal;
+    font-size:40px;
+
+
+}
+p.mainpage{
+
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: left;
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Verdana, sans-serif ;
+    font-style: normal;
+    font-size: 18px;
+
+}
+
+
+img.im_r5{
+    
+    position:absolute;
+    top:127%;
+    left:24%;
+    width: 50%;
+
+  }
+
+img.im_r4{
+    
+  position:absolute;
+  top:40%;
+  left:4%;
+  width: 30%;
+
+}
+
+img.im_r3{
+    
+    position:absolute;
+    top:41%;
+    left:34%;
+    width: 30%;
+  
+  }
+
+  img.im_r2{
+    
+    position: absolute;
+    top:39%;
+    left:65%;
+    width:32%;
+  
+  }
+
+  img.im_r1{
+    
+    position: absolute;
+    top:81.5%;
+    left:36%;
+    width: 61%;
+  
+  }
