@@ -1,0 +1,23 @@
+span {
+    background-image:repeating-linear-gradient(rgb(199, 188, 129),khaki);
+
+    background-repeat: no-repeat;
+    background-size: 0px 0px;
+    background-position: bottom left;
+    transition: background-size .4s ease;
+
+
+}
+
+
+
+/* Style the images inside the grid */
+.column img {
+    opacity: 1; 
+    cursor: pointer; 
+  }
+  
+  .column img:hover {
+    opacity: 0.5;
+  }
+  
