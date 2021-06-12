@@ -1,0 +1,186 @@
+.container_i {
+  position: fixed;
+
+  top:42%;
+  left:49.5%;
+}
+
+.image_i {
+  opacity: 1;
+  display: block;
+  position: fixed;
+  top:30%;
+  left:36%;
+  height:25%;
+  
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-radius: 50%;
+
+}
+
+.middle_i {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container_i:hover .image_i {
+  opacity: 0.3;
+}
+
+.container_i:hover .middle_i {
+  opacity: 1;
+}
+
+.text_i {
+  background-color:slategrey;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  font-family: 'Montserrat', 'Segoe UI', Tahoma, Verdana, sans-serif ;
+
+}
+
+
+
+
+
+
+.container_h {
+  position: fixed;
+
+  top:75%;
+  left:75.5%;
+
+}
+
+.image_h {
+  opacity: 1;
+  display: block;
+
+  position: fixed;
+  top:55%;
+  left:65%;
+  height:40%;
+  
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-radius: 50%;
+
+}
+
+.middle_h {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container_h:hover .image_h {
+  opacity: 0.3;
+}
+
+.container_h:hover .middle_h {
+  opacity: 1;
+}
+
+.text_h {
+  background-color: slategrey;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  font-family: 'Montserrat', 'Segoe UI', Tahoma, Verdana, sans-serif ;
+
+}
+
+
+
+
+
+
+
+.container_r {
+  position: fixed;
+
+  top:76.5%;
+  left:22%;
+
+
+}
+
+.image_r {
+  opacity: 1;
+  display: block;
+
+  position: fixed;
+  top:61.5%;
+  left:15%;
+  height:29.5%;
+  
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-radius: 50%;
+
+}
+
+.middle_r {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container_r:hover .image_r {
+  opacity: 0.3;
+}
+
+.container_r:hover .middle_r {
+  opacity: 1;
+}
+
+.text_r {
+  background-color:slategrey;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  font-family: 'Montserrat', 'Segoe UI', Tahoma, Verdana, sans-serif ;
+
+}
+
+
+
+
+.background{
+
+  background-color:snow;
+  background-size: 100%;
+  
+  }
+
+
+p.notepad{
+
+  position: fixed;
+
+  top: 15%;
+  left: 4%;
+  font-size: 20px;
+  font-family: 'Montserrat', 'Segoe UI', Tahoma, Verdana, sans-serif ;
+}
+
+
+
+
+
+
