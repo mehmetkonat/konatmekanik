@@ -1,0 +1,587 @@
+a {
+	text-decoration: none;
+	color: rgb(0, 46, 199);
+}
+
+.l-left {
+	float: left;
+}
+.l-right {
+	float: right;
+}
+
+.header-top {
+	background:#FF7F00;
+  height: 10%;
+	position:fixed;
+	top: 0;
+  left:-1px;
+	width: 100%;
+	z-index: 12;
+	box-sizing: border-box;
+  animation: mainFadeIn1 3.5s forwards;
+  opacity: 0;
+
+}
+
+.logo{
+
+
+    z-index: 52;
+
+	position:fixed;
+	height: 6%;
+margin-left: 0.8%;
+margin-top:0.3% ;
+border-radius: 100%;
+animation: mainFadeIn1 3.5s forwards;
+opacity: 0;
+
+
+    }
+
+
+
+.toggle-menu {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	position: relative;
+	top: 10px;
+}
+.toggle-menu i {
+	position: absolute;
+	display: block;
+	height: 2px;
+	background: white;
+	width: 30px;
+	left: 10px;
+	transition: all .3s;
+}
+.toggle-menu i:nth-child(1) {
+	top: 16px;
+}
+.toggle-menu i:nth-child(2) {
+	top: 24px;
+}
+.toggle-menu i:nth-child(3) {
+	top: 32px;
+}
+.open-menu i:nth-child(1) {
+	top: 25px;
+	-webkit-transform: rotateZ(45deg);
+	        transform: rotateZ(45deg);
+}
+.open-menu i:nth-child(2) {
+	background: transparent;
+}
+.open-menu i:nth-child(3) {
+	top: 25px;
+	-webkit-transform: rotateZ(-45deg);
+	        transform: rotateZ(-45deg);
+}
+nav {
+ 	height: 0;
+	opacity: 0;
+  box-sizing: border-box;
+
+	position: fixed;
+	top: 45px;
+	right: -50px;
+	width: 15%;
+  transition: all 1s;
+}
+.open-menu ~ nav {
+	opacity: 1;
+	z-index: 15;
+	height: calc(50vh - 5px);
+}
+nav ul {
+	padding: 10px;
+}
+nav li {
+	flex: 1;
+}
+nav li a {
+	font-size: 20px;
+	display:inline-table;
+	padding: 10px;
+	text-align: center;
+	
+}
+
+nav li a:hover {
+	background: #FF7F00;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+  
+main{
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 0%;
+    margin-bottom: 10%;
+    justify-content: center;
+  }
+  
+  
+  .about-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0%;
+    }
+  
+  img.portre {
+
+    margin-top: 9%;
+    margin-right: 45%;
+    width: 30%;
+  
+    z-index: 10;
+
+    animation: mainFadeIn1 3.5s forwards;
+    opacity: 0;
+
+  } 
+
+
+  .item{
+  width: 100vw;
+  margin-top: -31%;
+  margin-left: 45%;
+  animation: mainFadeIn1 3.5s forwards;
+  opacity: 0;
+  z-index: 10;
+
+  }
+
+  @keyframes mainFadeIn1 {
+    0% {
+      opacity: 0;
+    }
+    80% {
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+  
+  
+  .info{
+    width: 90%;
+    font-size: 20px;
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Verdana, sans-serif ;
+
+  }
+
+  .title {
+    width: 100%;
+    position: relative;
+    align-items: center;
+    height: 100px;
+    
+  } 
+
+
+.arrange{
+    width: 2vw;
+  }
+
+
+  h2.mainpage  {
+    margin-top: 25px;
+    margin-left: 30px;
+    color:steelblue;
+    text-align: left;
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Verdana, sans-serif ;
+    font-style: normal;
+    font-size: 50px;
+
+  }
+
+
+
+  
+  img.arkaplan{
+
+    object-fit:cover;
+    position: absolute;
+    top:10%;
+    right:10%;
+    width: 55%;
+    z-index: 1;
+
+    animation: mainFadeIn2 3.5s forwards;
+    opacity: 0;
+
+  }
+
+  @keyframes mainFadeIn2 {
+    0% {
+      opacity: 0;
+    }
+    80% {
+      opacity: 0;
+    }
+    100%{
+      opacity: 0.05;
+    }
+  }
+
+    img.sekil1{
+
+      object-fit:cover;
+      position: absolute;
+      top:53%;
+      right:1%;
+      width: 40%;
+      z-index: 2;
+
+
+      animation: mainFadeIn3 3.5s forwards;
+      opacity: 0;
+
+      
+
+    }
+  
+    img.sekil2{
+
+      object-fit:cover;
+      position: absolute;
+      top:83%;
+      right:3%;
+      width: 20%;
+      z-index: 2;
+
+      animation: mainFadeIn3 3.5s forwards;
+      opacity: 0;
+
+    }
+  
+    img.sekil3{
+
+      object-fit:cover;
+      position: absolute;
+      top:88%;
+      right:7%;
+      width: 15%;
+      z-index: 2;
+
+      animation: mainFadeIn3 3.5s forwards;
+      opacity: 0;
+
+    }
+  
+  
+    img.sekil4{
+
+      object-fit:cover;
+      position: absolute;
+      top:68%;
+      right:7%;
+      width: 10%;
+      z-index: 2;
+
+      animation: mainFadeIn3 3.5s forwards;
+      opacity: 0;
+
+    }
+
+    @keyframes mainFadeIn3 {
+      0% {
+        opacity: 0;
+      }
+      80% {
+        opacity: 0;
+      }
+      100%{
+        opacity: 0.8;
+      }
+    }
+  
+    img.sekil5{
+
+      object-fit:cover;
+      position: absolute;
+      top:-22%;
+      left:-22%;
+      width: 40%;
+      z-index: 2;
+
+      animation: mainFadeIn4 3.5s forwards;
+      opacity: 0;
+
+    }
+    @keyframes mainFadeIn4 {
+      0% {
+        opacity: 0;
+      }
+      80% {
+        opacity: 0;
+      }
+      100%{
+        opacity: 0.5;
+      }
+    }
+
+  
+
+    img.a1{
+
+      object-fit:cover;
+      position: absolute;
+      top:30%;
+      left:20%;
+      width: 10%;
+      z-index: 3;
+
+      animation: mainFadeIn5 3.5s forwards;
+      opacity: 0;
+
+    }
+    @keyframes mainFadeIn5 {
+      4% {
+        opacity: 0;
+        top:30%;
+        left:20%;
+        width: 10%;
+      }
+      8% {
+        opacity: 1;
+        top:30%;
+        left:20%;
+        width: 10%;
+      }
+      36%{
+        opacity: 1;
+        top:30%;
+        left:20%;
+        width: 10%;
+      }
+      40%{
+        opacity: 0;
+        top:30%;
+        left:20%;
+        width: 10%;
+      }
+      44%{
+        opacity: 0;
+        top:30%;
+        left:20%;
+        width: 10%;
+      }
+      48%{
+        opacity: 1;
+        top:30%;
+        left:20%;
+        width: 10%;
+      }
+      72%{
+        opacity: 1;
+        top:30%;
+        left:20%;
+        width: 10%;
+      }
+      100%{
+        opacity: 1;
+        top:14%;
+        left:71%;
+        width: 3%;
+      }
+
+    }
+
+    img.a2{
+
+      object-fit:cover;
+      position: absolute;
+      top:40%;
+      left:35%;
+      width: 15%;
+      z-index: 3;
+
+      animation: mainFadeIn6 3.5s forwards;
+      opacity: 0;
+
+    }
+    @keyframes mainFadeIn6 {
+      12% {
+        opacity: 0;
+        top:40%;
+        left:35%;
+        width: 15%;
+      }
+      16% {
+        opacity: 1;
+        top:40%;
+        left:35%;
+        width: 15%;
+      }
+      36%{
+        opacity: 1;
+        top:40%;
+        left:35%;
+        width: 15%;
+      }
+      40%{
+        opacity: 0;
+        top:40%;
+        left:35%;
+        width: 15%;
+      }
+      52%{
+        opacity: 0;
+        top:40%;
+        left:35%;
+        width: 15%;
+      }
+      56%{
+        opacity: 1;
+        top:40%;
+        left:35%;
+        width: 15%;
+      }
+      72%{
+        opacity: 1;
+        top:40%;
+        left:35%;
+        width: 15%;
+      }
+      100%{
+        opacity: 1;
+        top:18%;
+        left:75%;
+        width: 4.5%;
+      }
+
+
+    }
+
+    img.a3{
+
+      object-fit:cover;
+      position: absolute;
+      top:20%;
+      left:48%;
+      width: 15%;
+      z-index: 3;
+
+      animation: mainFadeIn7 3.5s forwards;
+      opacity: 0;
+
+    }
+    @keyframes mainFadeIn7 {
+      20% {
+        opacity: 0;
+        top:20%;
+        left:48%;
+        width: 15%;
+      }
+      24% {
+        opacity: 1;
+        top:20%;
+        left:48%;
+        width: 15%;
+      }
+      36%{
+        opacity: 1;
+        top:20%;
+        left:48%;
+        width: 15%;
+      }
+      40%{
+        opacity: 0;
+        top:20%;
+        left:48%;
+        width: 15%;
+      }
+      60%{
+        opacity: 0;
+        top:20%;
+        left:48%;
+        width: 15%;
+      }
+      64%{
+        opacity: 1;
+        top:20%;
+        left:48%;
+        width: 15%;
+      }
+      72%{
+        opacity: 1;
+        top:20%;
+        left:48%;
+        width: 15%;
+      }
+      100%{
+        opacity: 1;
+        top:12%;
+        left:79%;
+        width: 4.5%;
+      }
+    }
+
+    img.a4{
+
+      object-fit:cover;
+      position: absolute;
+      top:40%;
+      left:63%;
+      width: 15%;
+      z-index: 3;
+
+      animation: mainFadeIn8 3.5s forwards;
+      opacity: 0;
+
+    }
+    @keyframes mainFadeIn8 {
+      28% {
+        opacity: 0;
+        top:40%;
+        left:63%;
+        width: 15%;
+      }
+      32% {
+        opacity: 1;
+        top:40%;
+        left:63%;
+        width: 15%;
+      }
+      36%{
+        opacity: 1;
+        top:40%;
+        left:63%;
+        width: 15%;
+      }
+      40%{
+        opacity: 0;
+        top:40%;
+        left:63%;
+        width: 15%;
+      }
+      68%{
+        opacity: 0;
+        top:40%;
+        left:63%;
+        width: 15%;
+      }
+      72%{
+        opacity: 1;
+        top:40%;
+        left:63%;
+        width: 15%;
+      }
+      100%{
+        opacity: 1;
+        top:18%;
+        left:82%;
+        width: 4.5%;
+      }
+    }
